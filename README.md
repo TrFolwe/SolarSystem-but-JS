@@ -1,2 +1,3 @@
-# GalaxySpinJS
-Galaxy spin and JS
+Solar System
+
+Solar system, earties but js
