@@ -66,7 +66,7 @@ let speed = 1;
 class Earth {
   constructor(name, radian) {
     this.name = name;
-    this.color = "#"+Math.floor(Math.random()*16777215).toString(16);
+    this.color = `#${Math.floor(Math.random()*16777215).toString(16)}`;
     this.radius = randomAngle();
     this.radian = radian;
     this.speed = 1;
