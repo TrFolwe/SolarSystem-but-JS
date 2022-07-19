@@ -54,7 +54,7 @@ function circleF(x,y,radius,color) {
 const degToRad = deg => Math.PI/180*deg;
 
 function randomAngle() {
-  const angle = [0, 50, 80, 100, 140, 170,  210, 260, 310, 360].map(i => degToRad(i));
+  const angle = [0, 45, 90, 120, 160, 200,180,  240, 280, 320, 360].map(i => degToRad(i));
   return angle[Math.floor(Math.random() * angle.length)];
 }
 
